@@ -1,0 +1,96 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.box {
+    background-color: yellow;
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+    right: 30px;
+}
+
+.box2 {
+    background-color: lightgreen;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid green;
+    width: 300px;
+}
+
+.box3 {
+    background-color: lightcoral;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid red;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#main {
+    border: 1px solid black;
+}
+
+span {
+    display : inline;
+}
+
+.container {
+    display : flex;
+    justify-content : space-around;
+}
+ 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;  
+    box-sizing: border-box; 
+    margin : 10px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: navy;
+    font-size: 1.3em;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+.project ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: black;
+}
+
+.project ul li {
+    margin-bottom: 8px;
+}
