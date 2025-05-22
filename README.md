@@ -1,12 +1,12 @@
 # Personal Webpage - Geetham Gampa
 
-This is a personal webpage created using **HTML** and **CSS** to showcase my profile, skills, and projects.
+This is a personal webpage created using **HTML5** and **CSS** to showcase my profile, skills, and projects.
 
 ##  What I Did (Step by Step)
 
 ### 1. Created the `index.html` file
 
-- Used `<!DOCTYPE html>` to declare the HTML version.
+- Used `<!DOCTYPE html>` to declare the HTML5 version.
 - Added `<head>` with:
   - Page title (`Geetham Gampa | Personal Webpage`)
   - Link to the external CSS file using `<link rel="stylesheet" href="style.css">`
